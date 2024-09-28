@@ -18,7 +18,7 @@ public sealed class RandomController : ControllerBase
         _keyedResolverService = keyedResolverService;
     }
 
-    [HttpGet]
+    [HttpGet("typed")]
     public ActionResult Get([FromQuery] string serviceType)
     {
         _logger.LogInformation("Получил запрос");

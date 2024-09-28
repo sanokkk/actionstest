@@ -7,7 +7,6 @@ D:\projects\mine\csharp\Actions\src\Actions.Application\bin\Debug\net8.0\Actions
 D:\projects\mine\csharp\Actions\src\Actions.Application\bin\Debug\net8.0\Actions.Instance.pdb
 D:\projects\mine\csharp\Actions\src\Actions.Application\bin\Debug\net8.0\Autofac.dll
 D:\projects\mine\csharp\Actions\src\Actions.Application\bin\Debug\net8.0\Autofac.Extensions.DependencyInjection.dll
-D:\projects\mine\csharp\Actions\src\Actions.Application\bin\Debug\net8.0\Autofac.Integration.Web.dll
 D:\projects\mine\csharp\Actions\src\Actions.Application\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
 D:\projects\mine\csharp\Actions\src\Actions.Application\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\projects\mine\csharp\Actions\src\Actions.Application\bin\Debug\net8.0\Microsoft.OpenApi.dll
@@ -36,3 +35,4 @@ D:\projects\mine\csharp\Actions\src\Actions.Application\obj\Debug\net8.0\refint\
 D:\projects\mine\csharp\Actions\src\Actions.Application\obj\Debug\net8.0\Actions.Instance.pdb
 D:\projects\mine\csharp\Actions\src\Actions.Application\obj\Debug\net8.0\Actions.Instance.genruntimeconfig.cache
 D:\projects\mine\csharp\Actions\src\Actions.Application\obj\Debug\net8.0\ref\Actions.Instance.dll
+D:\projects\mine\csharp\Actions\src\Actions.Application\obj\Debug\net8.0\Actions.Instance.sourcelink.json

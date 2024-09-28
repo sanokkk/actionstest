@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "j/cEIW1biG+VlnFVF9bHEnCUOIZiK11bVTa3i7EztXCehsLnx+A92q+XyWxmCDKPgxsjf5VfEb09x9xvPkXp3A==",
+  "dgSpecHash": "kpkuQx3zlFNO0mGq/0RY8UStzKGsEEthBXni9csYC+6WNTh7yXMZG+hHCWeNoxodKRLyUU9J0haadQRhVLJGRw==",
   "success": true,
   "projectFilePath": "D:\\projects\\mine\\csharp\\Actions\\src\\UnitTests\\UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\autofac\\8.1.0\\autofac.8.1.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\autofac.extensions.dependencyinjection\\10.0.0\\autofac.extensions.dependencyinjection.10.0.0.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\autofac.web\\7.0.0\\autofac.web.7.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
@@ -30,16 +29,5 @@
     "C:\\Users\\admin\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.1\\system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Autofac.Web 7.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Autofac.Web",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

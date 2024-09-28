@@ -35,22 +35,6 @@
           }
         }
       },
-      "Autofac.Web/7.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Autofac": "8.0.0"
-        },
-        "compile": {
-          "lib/net472/Autofac.Integration.Web.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net472/Autofac.Integration.Web.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Microsoft.AspNetCore.OpenApi/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -236,21 +220,6 @@
         "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.xml",
         "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll",
         "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.xml"
-      ]
-    },
-    "Autofac.Web/7.0.0": {
-      "sha512": "QJda+41ieGfU1fiAi36ymTTXDXnWRQs52eIxgXxgoK1h9GZ2OJiRlcVePCeV0hLSHREAIa2RvPenN6YN8HMNMg==",
-      "type": "package",
-      "path": "autofac.web/7.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "autofac.web.7.0.0.nupkg.sha512",
-        "autofac.web.nuspec",
-        "icon.png",
-        "lib/net472/Autofac.Integration.Web.dll",
-        "lib/net472/Autofac.Integration.Web.xml"
       ]
     },
     "Microsoft.AspNetCore.OpenApi/8.0.0": {
@@ -660,7 +629,6 @@
     "net8.0": [
       "Autofac >= 8.1.0",
       "Autofac.Extensions.DependencyInjection >= 10.0.0",
-      "Autofac.Web >= 7.0.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -715,10 +683,6 @@
             "target": "Package",
             "version": "[10.0.0, )"
           },
-          "Autofac.Web": {
-            "target": "Package",
-            "version": "[7.0.0, )"
-          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[8.0.0, )"
@@ -750,17 +714,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Autofac.Web 7.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Autofac.Web",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

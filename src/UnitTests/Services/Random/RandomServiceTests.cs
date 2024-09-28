@@ -12,6 +12,6 @@ public sealed class RandomServiceTests
 
         var result = target.GenerateRandomString();
         
-        Assert.That(result, Is.Null);
+        Assert.That(result, Is.Not.Null);
     }
 }

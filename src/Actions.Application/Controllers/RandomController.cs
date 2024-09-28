@@ -1,5 +1,4 @@
-﻿using Actions.Instance.Services.Random;
-using Autofac.Features.AttributeFilters;
+﻿using Actions.Instance.Services.Keyed;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Actions.Instance.Controllers;
@@ -8,19 +7,23 @@ namespace Actions.Instance.Controllers;
 [Route("api")]
 public sealed class RandomController : ControllerBase
 {
-    private readonly IRandomService _helloService;
+    private readonly KeyedResolverService _keyedResolverService;
     private readonly ILogger<RandomController> _logger;
 
-    public RandomController([KeyFilter("hello")]IRandomService helloService, ILogger<RandomController> logger)
+    public RandomController(
+        ILogger<RandomController> logger,
+         KeyedResolverService keyedResolverService)
     {
-        _helloService = helloService;
         _logger = logger;
+        _keyedResolverService = keyedResolverService;
     }
 
     [HttpGet]
-    public ActionResult Get()
+    public ActionResult Get([FromQuery] string serviceType)
     {
         _logger.LogInformation("Получил запрос");
-        return Ok(_helloService.GenerateRandomString());
+
+        var service = _keyedResolverService.ResolveRandomService(serviceType);
+        return Ok(service.GenerateRandomString());
     }
 }

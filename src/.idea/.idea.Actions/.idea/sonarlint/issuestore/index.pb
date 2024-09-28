@@ -37,3 +37,5 @@ j
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+u
+EActions.Application/obj/Debug/net8.0/Actions.Instance.AssemblyInfo.cs,8\d\8daffa9880a9993da1410e26387d471d28052cf5

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions.Application", "Actions.Application", "{608A30C4-D606-46BE-AC50-1C7F0BFF03DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actions.Instance", "Actions.Application\Actions.Instance.csproj", "{28BC7DB1-7B47-4432-9766-054AD66A1B89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions.Test", "Actions.Test", "{DBD6352A-43DF-4789-9C7E-DB3647F8B2E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{9D200EBF-9339-4032-B26C-F790233E0FA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{4D1FE6FD-71AD-46A1-9EB5-7805B2519BEA}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\test.yml = ..\.github\workflows\test.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28BC7DB1-7B47-4432-9766-054AD66A1B89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28BC7DB1-7B47-4432-9766-054AD66A1B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28BC7DB1-7B47-4432-9766-054AD66A1B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28BC7DB1-7B47-4432-9766-054AD66A1B89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D200EBF-9339-4032-B26C-F790233E0FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D200EBF-9339-4032-B26C-F790233E0FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D200EBF-9339-4032-B26C-F790233E0FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D200EBF-9339-4032-B26C-F790233E0FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28BC7DB1-7B47-4432-9766-054AD66A1B89} = {608A30C4-D606-46BE-AC50-1C7F0BFF03DC}
+		{9D200EBF-9339-4032-B26C-F790233E0FA5} = {DBD6352A-43DF-4789-9C7E-DB3647F8B2E2}
+	EndGlobalSection
+EndGlobal

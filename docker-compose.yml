@@ -1,9 +1,9 @@
 services:
   api:
     ports:
-      - 8085:80
+      - 80:8080
     image: ghcr.io/sanokkk/actionstest:master
     container_name: actions
     restart: always
     environment:
-      - ASPNETCORE_URLS = http://*:8085
+      - ASPNETCORE_URLS = http://*:8080

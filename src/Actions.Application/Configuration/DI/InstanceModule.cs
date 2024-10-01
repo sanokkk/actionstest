@@ -15,9 +15,11 @@ public sealed class InstanceModule : Module
     {
         builder.RegisterType<RandomHelloStringService>().Named<IRandomService>("hello");
         builder.RegisterType<RandomIqStringService>().Named<IRandomService>("iq");
+        builder.RegisterType<HeightRandomService>().Named<IRandomService>("height");
 
         builder.Register(f => new KeyedResolverService(
             f.ResolveNamed<IRandomService>("hello"),
-            f.ResolveNamed<IRandomService>("iq"))).AsSelf();
+            f.ResolveNamed<IRandomService>("iq"),
+            f.ResolveNamed<IRandomService>("height"))).AsSelf();
     }
 }
